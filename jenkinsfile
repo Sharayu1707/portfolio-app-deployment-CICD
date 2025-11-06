@@ -3,15 +3,15 @@ pipeline {
 
     environment {
         SSH_CRED = 'node-app-key'               // Jenkins credential ID
-        SERVER_IP = '54.67.84.65'          // Your Deploy EC2 IP
+        SERVER_IP = '3.109.2.42'          // Your Deploy EC2 IP
         REMOTE_USER = 'ubuntu'
-        WEB_DIR = '/var/www/html/'
+        WEB_DIR = '/home/ubuntu/pythonapp'
     }
 
     stages {
         stage('Clone Repo') {
             steps {
-                git url: 'https://github.com/iamtruptimane/portfolio-app-deployment-CICD.git', branch: 'main'
+                git url: 'https://github.com/Sharayu1707/portfolio-app-deployment-CICD.git', branch: 'main'
             }
         }
 
