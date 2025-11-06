@@ -20,6 +20,7 @@ GitHub – Source code management
 python / HTML / Portfolio App – Application code
 
 📁 Folder Structure
+
 portfolio-app-deployment-CICD/
 │
 ├── Jenkinsfile
@@ -45,8 +46,11 @@ Portfolio App Server
 Push your portfolio code to GitHub:
 
 git add .
+
 git commit -m "Initial commit"
+
 git remote add origin https://github.com/Sharayu1707/portfolio-app-deployment-CICD.git
+
 git push -u origin main
 
 ### Step 3: Create Jenkins Pipeline
@@ -61,19 +65,24 @@ Add pipeline script using Jenkinsfile
 ### Step 4: Access the Portfolio
 
 Open in browser:
+
 http://<protfolio_SERVER_PUBLIC_IP>:5000
 
 
 ## Advantages
 
 ✅ Continuous Integration & Delivery
+
 ✅ Automated Deployment
+
 ✅ Easy Rollback and Version Control
+
 ✅ Scalable and Reliable Architecture
 
 ## Disadvantages
 
  Requires initial AWS setup and cost
+ 
  Jenkins configuration can be complex for beginners
 
 ## Conclusion
