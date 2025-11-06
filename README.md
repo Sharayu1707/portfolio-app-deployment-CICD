@@ -7,6 +7,8 @@ It automates the build, test, and deployment process to ensure faster and reliab
 
 ## Project Architecture
 
+![Architecture](images/img-1.png)
+
 ## Services Used:
 
 AWS EC2 – Hosting Jenkins and Application servers
