@@ -23,8 +23,11 @@ python / HTML / Portfolio App – Application code
 portfolio-app-deployment-CICD/
 │
 ├── Jenkinsfile
-├── app.js                 # Portfolio source files
-├── package.json          # For Node.js-based portfolio
+
+├── app.js                     # Portfolio source files
+
+├── package.json                # For Node.js-based portfolio
+
 ├── README.md
 
 ## Steps to Setup
